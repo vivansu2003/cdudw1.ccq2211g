@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>sport</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <style>
+
+    </style>
+    <style>
+
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>SPORT STORE</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <!-- <li><a href="#">Trang chủ</a></li>
+            <li><a href="#">Giới thiệu</a></li>
+            <li><a href="#">gio hang</a></li>
+            <li><a href="#">dang ky</a></li> -->
+            <nav>
+                <ul>
+                    <li><a href="#" onclick="navigateTo('index.html')">Trang chủ</a></li>
+                    <li><a href="#" onclick="navigateTo('product.html')">Sản phẩm</a></li>
+                    <li><a href="#" onclick="navigateTo('contact.html')">liên hệ</a></li>
+                    <li><a href="#" onclick="navigateTo('product_detail.html')">chi tiết sản phẩm</a></li>
+                    <li><a href="#" onclick="navigateTo('register.html')">đăng ký</a></li>
+
+
+
+
+                </ul>
+            </nav>
+
+            <script>
+                function navigateTo(page) {
+                    window.location.href = page;
+                }
+            </script>
+            <div class="search">
+                <form>
+                    <input type="text" placeholder="Tìm kiếm">
+                    <input type="submit" value="Tìm kiếm">
+                </form>
+            </div>
+        </ul>
+    </nav>
+
+    <section id="product-list">
+        <h2>Danh sách sản phẩm</h2>
+        <ul>
+            <li>quần áo</li>
+            <li>giầy</li>
+            <li>orther</li>
+        </ul>
+    </section>
+    <section id="filter">
+        <h3>Bộ lọc</h3>
+        <label for="filter-category">Danh mục:</label>
+        <select id="filter-category">
+            <option value="all">Tất cả</option>
+            <option value="category1">áo quần</option>
+            <option value="category2">giầy</option>
+            <option value="category3">orthe</option>
+        </select>
+    </section>
+    <section id="sort-by">
+        <h3>Sắp xếp</h3>
+        <label for="sort-option">Sắp xếp theo:</label>
+        <select id="sort-option">
+            <option value="name">Tên</option>
+            <option value="price">Giá</option>
+        </select>
+    </section>
+    <section id="type-view">
+        <h3>Chế độ xem</h3>
+        <input type="radio" name="view-mode" id="view-mode-list" value="list" checked>
+        <label for="view-mode-list">Danh sách</label>
+        <input type="radio" name="view-mode" id="view-mode-grid" value="grid">
+        <label for="view-mode-grid">Lưới</label>
+    </section>
+    <footer class="footer">
+        <div class="grid wide footer-container">
+            <div class="row">
+                <div class="col l-3 m-6 c-12">
+                    <div class="footer-item">
+                        <div class="footer-item__name">
+                            <div class="footer-logo">
+
+                                <span class="footer-logo__name">SPORT</span>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+
+                <div class="col l-3 m-6 c-12">
+                    <div class="footer-item">
+                        <div class="footer-item__name">
+                            <h4>CONTACT INFO</h4>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="footer-copyright">
+                Copyright © 2021 By <a href="" class="footer-copyright__link">vi van su</a>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

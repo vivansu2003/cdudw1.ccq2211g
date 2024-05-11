@@ -1,0 +1,235 @@
+body {
+    background-image: url('/image/nenanh.jpg') !important;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+
+}
+
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+nav {
+    background-color: #f4f4f4;
+    padding: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+section {
+    padding: 20px;
+    background-color: #fff;
+}
+
+
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+.logo {
+    display: inline-block;
+    height: 50px;
+    width: 50px;
+    background-color: #ccc;
+    border-radius: 50%;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+.search {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.search input[type="text"] {
+    padding: 10px;
+    width: 300px;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.search input[type="submit"] {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.search input[type="submit"]:hover {
+    background-color: #555;
+}
+
+.content {
+    margin-top: 20px;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.content h2 {
+    color: #333;
+}
+
+.content p {
+    color: #666;
+}
+
+.content img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+nav ul li a {
+    display: hover;
+    padding: 10px;
+    color: #333;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+nav ul li a:hover {
+    background-color: #555;
+    color: #fff;
+}
+
+#product-list {
+
+    margin-top: 20px;
+}
+
+#product-list h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+#product-list ul {
+    list-style: none;
+}
+
+#product-list li {
+    margin-bottom: 5px;
+}
+
+#filter {
+    margin-top: 20px;
+}
+
+#filter h3 {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+#filter label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+#filter select {
+    padding: 5px;
+}
+
+
+#sort-by {
+    margin-top: 20px;
+}
+
+#sort-by h3 {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+#sort-by label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+#sort-by select {
+    padding: 5px;
+}
+
+#type-view {
+    margin-top: 20px;
+}
+
+#type-view h3 {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+#type-view input[type="radio"] {
+    margin-right: 5px;
+}
+
+.container {
+    width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+h2 {
+    text-align: center;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button[type="submit"] {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+footer div {
+    font-size: 20px;
+}

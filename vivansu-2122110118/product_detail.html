@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>sport</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+
+
+</head>
+
+<body>
+    <header>
+        <h1>SPORT STORE</h1>
+    </header>
+
+    <nav>
+        <ul>
+
+            <nav>
+                <ul>
+                    <li><a href="#" onclick="navigateTo('index.html')">Trang chủ</a></li>
+                    <li><a href="#" onclick="navigateTo('product.html')">Sản phẩm</a></li>
+                    <li><a href="#" onclick="navigateTo('contact.html')">liên hệ</a></li>
+                    <li><a href="#" onclick="navigateTo('product_detail.html')">chi tiết sản phẩm</a></li>
+                    <li><a href="#" onclick="navigateTo('register.html')">đăng ký</a></li>
+                </ul>
+            </nav>
+
+            <script>
+                function navigateTo(page) {
+                    window.location.href = page;
+                }
+            </script>
+            <div class="search">
+                <form>
+                    <input type="text" placeholder="Tìm kiếm">
+                    <input type="submit" value="Tìm kiếm">
+                </form>
+            </div>
+        </ul>
+    </nav>
+
+    <section id="product-info">
+        <h2>Thông tin sản phẩm</h2>
+        <div class="product-details">
+            <img src="/image/bangkeo.jpg" alt="Product Image">
+            <h3>Tên sản phẩm</h3>
+            <p>Mô tả sản phẩm...</p>
+            <p>Giá: $99.99</p>
+            <button type="button">Thêm vào giỏ hàng</button>
+        </div>
+    </section>
+    <section id="product-detail">
+        <h2>Chi tiết sản phẩm</h2>
+        <ul class="details-list">
+            <li>Màu sắc: Đen</li>
+            <li>Kích thước: XL</li>
+            <li>Chất liệu: Bông</li>
+            <li>Xuất xứ: Việt Nam</li>
+        </ul>
+    </section>
+    <section id="product-same-category">
+        <h2>Sản phẩm cùng danh mục</h2>
+        <ul class="product-list">
+            <li>
+                <img src="product1.jpg" alt="Product 1">
+                <h3>Sản phẩm 1</h3>
+                <p>Giá: $49.99</p>
+            </li>
+            <li>
+                <img src="product2.jpg" alt="Product 2">
+                <h3>Sản phẩm 2</h3>
+                <p>Giá: $59.99</p>
+            </li>
+            <li>
+                <img src="product3.jpg" alt="Product 3">
+                <h3>Sản phẩm 3</h3>
+                <p>Giá: $69.99</p>
+            </li>
+        </ul>
+    </section>
+
+    <footer class="footer">
+        <div class="grid wide footer-container">
+            <div class="row">
+                <div class="col l-3 m-6 c-12">
+                    <div class="footer-item">
+                        <div class="footer-item__name">
+                            <div class="footer-logo">
+
+                                <span class="footer-logo__name">SPORT</span>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <h4>CONTACT INFO</h4>
+                <div class="footer-copyright">
+                    Copyright © 2021 By <a href="" class="footer-copyright__link">vi van su</a>
+                </div>
+            </div>
+    </footer>
+</body>
+
+</html>
