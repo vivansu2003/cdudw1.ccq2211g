@@ -1,0 +1,463 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Các lớp CSS cho các phần tử */
+.menu li:hover {
+    background-color: #f298e4e8;
+    color: #fff;
+
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #bfbff0;
+    padding: 10px;
+    margin-bottom: 30px;
+    margin: auto;
+    border-radius: 5px;
+    box-shadow: 0 0 20px rgba(33, 29, 29, 0.881);
+
+}
+
+.logo img {
+    width: 120px;
+    height: auto;
+}
+
+.menu-items {
+    list-style: none;
+    display: flex;
+}
+
+.menu-items li {
+    margin-right: 10px;
+    font: optional;
+    font-size: larger;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 0 20px rgba(33, 29, 29, 0.881);
+    background-color: #b3eddc;
+}
+
+.menu-items li a {
+    text-decoration: none;
+    color: #333;
+}
+
+.user-actions {
+    display: flex;
+    align-items: center;
+}
+
+.user-actions a:hover {
+    background-color: #fb922f;
+    color: #030f06;
+}
+
+.user-actions a {
+    margin-right: 10px;
+    text-decoration: none;
+    color: #080a09;
+    border-radius: 5px;
+    box-shadow: 0 0 20px rgba(223, 92, 92, 0.881);
+    font: optional;
+    font-size: larger;
+}
+
+.search-form input[type="text"] {
+    padding: 5px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(11, 9, 9, 0.3);
+}
+
+.search-form button:hover {
+    background-color: #b3eddc;
+    color: #000;
+}
+
+.search-form button {
+    padding: 5px 10px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(11, 9, 9, 0.3);
+}
+
+/* ---------------------endmune--------------------------*/
+
+
+.banner img {
+    width: 100%;
+    height: auto;
+    margin-top: 1px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+/*-------------------------endbanner----------------------*/
+/*-----*/
+
+.product-category {
+    text-align: center;
+    margin-top: 30px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+h2 {
+    color: #0e1010;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.category-item {
+    display: inline-block;
+    width: 200px;
+    margin: 70px;
+}
+
+
+.category-item img {
+    width: 280px;
+    height: auto;
+    border-radius: 20px;
+    border: 2px solid #ccc;
+    padding: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.category-item h3 {
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+
+
+
+
+/*---------------------------------------endproductcategory------------------------------------------------------*/
+
+/*ende category*/
+.product-new {
+    text-align: center;
+    margin-bottom: 100px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    margin-top: 100px;
+}
+
+.product-item {
+    display: inline-block;
+    width: 200px;
+    margin: 20px;
+
+}
+
+.product-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+    padding: 5px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+}
+
+.product-item h3 {
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+.product-item p {
+    margin-top: 5px;
+    font-size: 14px;
+}
+
+
+/*--------------------------------------------end product new------------------------------*/
+
+
+.post-new {
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    padding: 20px;
+    background-color: rgb(172, 166, 189);
+}
+
+.post-new h2 {
+    background-color: #333;
+    color: burlywood;
+
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.post-item {
+    display: inline-block;
+    width: 300px;
+    margin: 20px;
+}
+
+.post-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+}
+
+.post-item h3 {
+    margin-top: 30px;
+    font-size: 25px;
+    margin-bottom: 30px;
+    display: inline-block;
+    margin-top: 10px;
+    padding: 5px 10px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+
+}
+
+.post-item p {
+    margin-top: 5px;
+    font-size: 18px;
+}
+
+.post-item a {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 5px 10px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+/*----------------------------------------------------endnewpost------------------------------*/
+
+/*của trang ssan pham */
+.product {
+    text-align: center;
+}
+
+.filter {
+    margin-bottom: 20px;
+}
+
+.product-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.product-item {
+    width: 300px;
+    margin: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.product-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 7px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+}
+
+.product-item h3 {
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+.product-item p {
+    margin-top: 5px;
+    font-size: 14px;
+}
+
+/*---------------------------trangsanpham ----------------------------*/
+/*footer*/
+.footer {
+
+    background: linear-gradient(to right, #b3eddc, #0d0f0d);
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.footer-info p {
+
+    display: inline-block;
+    margin-top: 10px;
+    ;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+
+
+}
+
+.footer-social a {
+    margin-right: 10px;
+    color: #000;
+    font-size: 20px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(237, 10, 10, 0.3);
+}
+
+.footer-social a:hover {
+    color: #007bff;
+}
+
+/*------------------------------------endfooter-----------------------------------------------*/
+
+/*lienheej*/
+.contact {
+    text-align: center;
+    display: inline-block;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 20px;
+    width: 600px;
+}
+
+.google-map {
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    margin-bottom: 1px;
+
+}
+
+.contact-form h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.contact-info p {
+    margin-bottom: 10px;
+}
+
+.contact-form form {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.contact-form textarea {
+    margin-bottom: 10px;
+    padding: 5px;
+}
+
+.contact-form button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    background-color: #0056b3;
+}
+
+/*------------------------------------------*encontact----------------------------------------------*/
+
+
+
+/*product_detail*/
+.product-detail {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.product-image {
+    flex: 1;
+    text-align: center;
+}
+
+.product-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.product-info {
+    flex: 2;
+    padding: 0 20px;
+}
+
+.product-info h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.product-info p {
+    margin-bottom: 10px;
+}
+
+.add-to-cart {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.add-to-cart:hover {
+    background-color: #0056b3;
+}
+
+/*-------------------------------------------*endproduct_detail-------------------------------------/
+/*san pham giam gia*/
+.product-sale {
+    text-align: center;
+    margin-bottom: 100px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.product-item-sale {
+    width: 300px;
+    margin: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    display: inline-block;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+}
+
+.product-item-sale img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.product-item-sale h3 {
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+.product-item-sale p {
+    margin-top: 5px;
+    font-size: 14px;
+}
